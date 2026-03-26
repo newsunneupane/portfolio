@@ -1,0 +1,21 @@
+node_modules
+dist
+build
+.DS_Store
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Editor / IDE
+.vscode
+.idea
+
+# Tailwind / Vite caches
+.cache
+coverage
+
+# OS
+Thumbs.db
+ehthumbs.db
