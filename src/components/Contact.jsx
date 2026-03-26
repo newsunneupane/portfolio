@@ -78,7 +78,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto px-6 relative">
         {/* Header */}
         <div className="mb-16 reveal text-center">
-          <span className="section-label mb-3 justify-center">04. Contact</span>
+          <span className="flex justify-center text-3xl mb-3 text-blue-400   pb-2"> Contact</span>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black text-text-primary mt-2">
             Let's <span className="gradient-text">connect</span>
           </h2>

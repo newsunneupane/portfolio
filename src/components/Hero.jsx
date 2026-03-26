@@ -163,21 +163,8 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* ── Scroll indicator ── */}
-      <div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-        style={{ animation: 'fadeIn 1s 1s ease forwards', opacity: 0 }}
-        aria-hidden="true"
-      >
-        <span className="font-mono text-xs text-text-muted tracking-widest">SCROLL</span>
-        <div
-          className="w-px h-12"
-          style={{
-            background: 'linear-gradient(to bottom, rgba(56,189,248,0.6), transparent)',
-            animation: 'float 2s ease-in-out infinite',
-          }}
-        />
-      </div>
+      
+     
     </section>
   );
 }

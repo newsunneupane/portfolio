@@ -10,7 +10,7 @@ export const personalInfo = {
   github: "https://github.com/newsunneupane",
   linkedin: "https://www.linkedin.com/in/newsun-neupane-42b0872aa/",
   twitter: "",          // Optional — leave empty to hide
-  resumeLink: "#",      // Replace with your actual resume URL
+  resumeLink: "",      // Replace with your actual resume URL
 };
 
 export const skills = [
@@ -23,14 +23,12 @@ export const skills = [
   // Backend
   { name: "PHP", category: "backend" },
   { name: "MySQL", category: "backend" },
-  { name: "REST APIs", category: "backend" },
+  
   // Tools
   { name: "Git & GitHub", category: "tools" },
   { name: "VS Code", category: "tools" },
   { name: "Vite", category: "tools" },
-  { name: "Python (ML)", category: "tools" },
-  { name: "Linux", category: "tools" },
-  { name: "Figma", category: "tools" },
+  
 ];
 
 export const projects = [
@@ -67,8 +65,8 @@ export const projects = [
     id: 3,
     title: "Phishing URL Detector",
     description:
-      "A Chrome browser extension powered by a machine-learning model that classifies URLs in real time as phishing or safe. Built with Python (scikit-learn) and integrated via a lightweight REST API.",
-    tech: ["Python", "scikit-learn", "Chrome Extension", "REST API", "JavaScript"],
+      "A Chrome browser extension powered by a machine-learning model that classifies URLs in real time as phishing or safe. Built with Python (scikit-learn) ",
+    tech: ["Python", "scikit-learn", "Chrome Extension", "Machine Learning", "JavaScript"],
     category: "ML / Security",
     github: "https://github.com/newsunneupane",
     live: null,
@@ -91,18 +89,18 @@ export const experience = [
   },
   {
     type: "project",
-    title: "Open Source Contributor",
+    title: "Github Contributor",
     organization: "GitHub",
     period: "2023 — Present",
     description:
-      "Actively contributing to open-source projects and maintaining personal repositories. Collaborating with developers globally and practising version control best practices.",
+      "Actively contributing to Github projects and maintaining personal repositories and practising version control best practices.",
     icon: "💻",
   },
   {
     type: "education",
     title: "+2 Science (NEB Board)",
-    organization: "Higher Secondary School",
-    period: "2020 — 2022",
+    organization: "College For Higher Education",
+    period: "2017 — 2019",
     description:
       "Completed higher secondary education with a focus on science and mathematics, building a strong analytical foundation for computer science studies.",
     icon: "📚",

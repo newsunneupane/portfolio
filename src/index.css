@@ -2,38 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ── Theme tokens (Light/Dark) ── */
-:root {
-  /* backgrounds */
-  --bg-primary: 255 255 255;
-  --bg-secondary: 248 250 252;
-  --bg-card: 255 255 255;
-
-  /* text */
-  --text-primary: 15 23 42;      /* slate-900 */
-  --text-secondary: 51 65 85;    /* slate-700 */
-  --text-muted: 100 116 139;     /* slate-500 */
-
-  /* accents */
-  --accent-primary: 56 189 248;  /* cyan-400 */
-  --accent-secondary: 129 140 248; /* indigo-400 */
-  --accent-glow: 56 189 248;     /* cyan-400 */
-}
-
-html.dark {
-  --bg-primary: 6 8 15;
-  --bg-secondary: 13 17 23;
-  --bg-card: 17 24 39;
-
-  --text-primary: 241 245 249;   /* slate-100 */
-  --text-secondary: 148 163 184; /* slate-400 */
-  --text-muted: 71 85 105;       /* slate-600 */
-
-  --accent-primary: 56 189 248;
-  --accent-secondary: 129 140 248;
-  --accent-glow: 56 189 248;
-}
-
 /* ── Base Resets ── */
 @layer base {
   html {
@@ -44,6 +12,8 @@ html.dark {
 
   body {
     @apply bg-bg-primary text-text-primary font-body;
+    background-color: #06080f;
+    color: #f1f5f9;
     overflow-x: hidden;
   }
 

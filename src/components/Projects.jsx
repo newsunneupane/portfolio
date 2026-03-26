@@ -105,11 +105,11 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto px-6 relative">
         {/* Header */}
         <div className="mb-16 reveal">
-          <span className=" mb-3"> Projects</span>
-          <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black text-text-primary mt-2">
+          <span className="flex justify-center text-3xl mb-3 text-blue-400   pb-2"> Projects</span>
+          <h2 className="font-display text-5xl sm:text-4xl md:text-5xl font-black text-text-primary mt-2 leading-tight pb-2 overflow-visible">
             Things I've <span className="gradient-text">built</span>
           </h2>
-          <p className="text-text-secondary text-sm mt-2 max-w-md">
+          <p className="text-text-secondary text-sm  max-w-md">
             A selection of projects I've worked on — ranging from full-stack apps to ML-powered browser extensions.
           </p>
         </div>

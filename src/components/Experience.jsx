@@ -70,7 +70,7 @@ export default function Experience() {
       <div className="max-w-6xl mx-auto px-6 relative">
         {/* Header */}
         <div className="mb-16 reveal">
-          <span className="section-label mb-3">03. Experience</span>
+          <span className="flex justify-center text-3xl mb-3 text-blue-400   pb-2">  Experience</span>
           <h2 className="font-display text-3xl sm:text-4xl md:text-5xl font-black text-text-primary mt-2">
             Education &amp; <span className="gradient-text">Journey</span>
           </h2>
@@ -106,7 +106,7 @@ export default function Experience() {
                   'Master TypeScript & Next.js',
                   'Contribute meaningfully to open source',
                   'Build and ship a SaaS product',
-                  'Graduate BCA with distinction',
+                  
                 ].map((goal, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-text-secondary">
                     <span
