@@ -8,22 +8,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Deep space dark palette
+        // Theme tokens (CSS variables set in src/index.css)
         bg: {
-          primary: '#06080f',
-          secondary: '#0d1117',
-          card: '#111827',
+          primary: 'rgb(var(--bg-primary) / <alpha-value>)',
+          secondary: 'rgb(var(--bg-secondary) / <alpha-value>)',
+          card: 'rgb(var(--bg-card) / <alpha-value>)',
         },
-        // Electric cyan accent
         accent: {
-          primary: '#38bdf8',
-          secondary: '#818cf8',
-          glow: '#38bdf880',
+          primary: 'rgb(var(--accent-primary) / <alpha-value>)',
+          secondary: 'rgb(var(--accent-secondary) / <alpha-value>)',
+          glow: 'rgb(var(--accent-glow) / <alpha-value>)',
         },
         text: {
-          primary: '#f1f5f9',
-          secondary: '#94a3b8',
-          muted: '#475569',
+          primary: 'rgb(var(--text-primary) / <alpha-value>)',
+          secondary: 'rgb(var(--text-secondary) / <alpha-value>)',
+          muted: 'rgb(var(--text-muted) / <alpha-value>)',
         }
       },
       fontFamily: {

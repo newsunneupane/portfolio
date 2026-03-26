@@ -30,7 +30,7 @@ export default function App() {
   useActiveSection(SECTIONS, setActiveSection);
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: '#06080f' }}>
+    <div className="min-h-screen bg-bg-primary text-text-primary">
       {/* ── Sticky Navigation ── */}
       <Navbar
         activeSection={activeSection}
